@@ -11,6 +11,8 @@ TFTP is a lightweight and fast protocol, commonly used in lab and trusted networ
 
 > ⚠️ Note: TFTP lacks authentication and encryption — avoid using it in untrusted or production environments without additional security measures.
 
+## 📌 Sample of Basic Topology
+![image](https://github.com/user-attachments/assets/8e851828-a3a1-45b9-8824-e5f78a88302c)
 
 ## 📌 Prerequisites
 
