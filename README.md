@@ -30,3 +30,21 @@ Before performing backup or restore operations, ensure the following requirement
   - Destination: TFTP server IP
 
 > 💡 Tip: Test connectivity with `ping <TFTP server IP>` from the Cisco device to verify reachability before initiating any transfer.
+
+
+
+
+
+
+## 🔁 Backing Up Cisco Configuration to TFTP
+
+### 1. Backup Running Configuration
+```bash
+copy running-config tftp:
+
+
+
+
+
+
+
