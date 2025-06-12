@@ -106,8 +106,8 @@ Have a suggestion, spotted an issue, or want to contribute improvements?
 
 - 🛠️ Fork this repo and submit a pull request
 - 💬 Open an issue if you find a bug or have a request
-- 📫 Connect with me on [LinkedIn](https://www.linkedin.com/) or drop feedback
+- 📫 Connect with me on [LinkedIn]([https://www.linkedin.com/](https://www.linkedin.com/in/kenneth-nweke-4a9456185/)) or drop feedback
 
-Thanks for using this guide — and happy automating!
+Thanks for using this guide — and happy backup!
 
 
