@@ -20,11 +20,11 @@ Below is a simple network topology used to demonstrate the TFTP configuration ba
 
 Before performing backup or restore operations, ensure the following requirements are met:
 
-- ✅ **TFTP server is installed and running**
+✅ **TFTP server is installed and running**
   - Examples: [TFTPD32](http://tftpd32.jounin.net/), SolarWinds TFTP (Windows), or `tftp-hpa` (Linux)
-- ✅ **TFTP server is reachable** from the Cisco device via IP
-- ✅ **Correct folder permissions** are set on the TFTP server's root directory
-- ✅ **Firewall rules allow TFTP traffic**
+✅ **TFTP server is reachable** from the Cisco device via IP
+✅ **Correct folder permissions** are set on the TFTP server's root directory
+✅ **Firewall rules allow TFTP traffic**
   - **UDP Port 69** must be open
   - Source: Cisco device IP  
   - Destination: TFTP server IP
