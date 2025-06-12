@@ -41,10 +41,13 @@ Before performing backup or restore operations, ensure the following requirement
 ### 1. Backup Running Configuration
 ```bash
 copy running-config tftp:
+```
 
+Prompts:
 
+Address or name of remote host? → 192.168.1.100
 
-
+Destination filename? → rtr1-running-config
 
 
 
