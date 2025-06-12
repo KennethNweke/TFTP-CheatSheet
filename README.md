@@ -31,11 +31,7 @@ Before performing backup or restore operations, ensure the following requirement
 
 > 💡 Tip: Test connectivity with `ping <TFTP server IP>` from the Cisco device to verify reachability before initiating any transfer.
 
-
-
-
-
-
+##
 ## 🔁 Backing Up Cisco Configuration to TFTP
 
 ### 1. Backing up Running Configuration
