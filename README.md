@@ -61,8 +61,6 @@ Prompts:
 ```bash
 copy tftp: startup-config
 ```
-##
-##
 
 ## 🧰 Example Session
 ```plaintext
@@ -72,4 +70,11 @@ Destination filename [running-config]? rtr1-backup
 !!
 1234 bytes copied in 2.345 secs (526 bytes/sec)
 ```
+
+## ⚠️ Common Issues & Fixes
+| Issue                       | Cause                               | Fix                                      |
+|----------------------------|-------------------------------------|------------------------------------------|
+| `%Error opening tftp://...` | File not found or permission denied | Check file path, firewall, access rights |
+| Timeout                    | Device can’t reach TFTP server      | Check routing, ping the server           |
+| Incomplete copy            | Server folder is read-only or full  | Ensure folder permissions and space      |
 
