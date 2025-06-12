@@ -1,7 +1,3 @@
-# TFTP-CheatSheet
-Backup &amp; Restore Using TFTP
-
-
 # 📘 Cisco Config Backup & Restore via TFTP
 
 This cheat sheet is a companion to my LinkedIn video on backing up Cisco device configurations using a TFTP server. It’s designed to help network engineers and students quickly recall the commands and setup steps needed to:
