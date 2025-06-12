@@ -38,16 +38,16 @@ Before performing backup or restore operations, ensure the following requirement
 
 ## 🔁 Backing Up Cisco Configuration to TFTP
 
-### 1. Backup Running Configuration
+### 1. Backing up Running Configuration
 ```bash
 copy running-config tftp:
 ```
-
 Prompts:
-
 Address or name of remote host? → 192.168.1.100
-
 Destination filename? → rtr1-running-config
 
-
+### 2. Backing up Startup Configuration
+```bash
+copy startup-config tftp:
+```
 
