@@ -9,12 +9,12 @@ This cheat sheet is a companion to my LinkedIn video on backing up Cisco device 
 
 TFTP is a lightweight and fast protocol, commonly used in lab and trusted network environments for configuration transfers. This guide walks you through practical, tested examples for real-world use.
 
-> ⚠️ Note: TFTP lacks authentication and encryption — avoid using it in untrusted or production environments without additional security measures.<br><br>
+> ⚠️ Note: TFTP lacks authentication and encryption — avoid using it in untrusted or production environments without additional security measures.
 
 
 
 
-## 🖥 Sample Topology
+<br><br>## 🖥 Sample Topology
 Below is a simple network topology used to demonstrate the TFTP configuration backup process:
 ![image](https://github.com/user-attachments/assets/1e8a1ab8-ea05-4adf-96d9-dde7fdc42e7d)
 
