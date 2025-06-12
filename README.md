@@ -84,3 +84,30 @@ Destination filename [running-config]? rtr1-backup
 ```bash
 copy running-config scp:
 ```
+
+
+---
+
+## ✅ Final Notes
+
+This cheat sheet is a quick-reference guide for backing up and restoring Cisco configurations using a TFTP server — perfect for labs, certifications, or small network environments.
+
+While TFTP is simple and effective, always remember:
+
+- ⚠️ **TFTP is not secure** — avoid using it on untrusted networks
+- 🔐 For production environments, consider secure alternatives like **SCP** or **SFTP**
+- 🧪 Always test backups and restores in a safe environment before applying to live devices
+
+---
+
+## 🙌 Contribute or Reach Out
+
+Have a suggestion, spotted an issue, or want to contribute improvements?
+
+- 🛠️ Fork this repo and submit a pull request
+- 💬 Open an issue if you find a bug or have a request
+- 📫 Connect with me on [LinkedIn](https://www.linkedin.com/) or drop feedback
+
+Thanks for using this guide — and happy automating!
+
+
