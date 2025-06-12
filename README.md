@@ -78,3 +78,9 @@ Destination filename [running-config]? rtr1-backup
 | Timeout                    | Device can’t reach TFTP server      | Check routing, ping the server           |
 | Incomplete copy            | Server folder is read-only or full  | Ensure folder permissions and space      |
 
+## 🔐 Security Notes
+ - TFTP is insecure (no authentication or encryption).
+ - Use SCP or SFTP for secure environments:
+```bash
+copy running-config scp:
+```
