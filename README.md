@@ -12,17 +12,6 @@ TFTP is a lightweight and fast protocol, commonly used in lab and trusted networ
 > ⚠️ Note: TFTP lacks authentication and encryption — avoid using it in untrusted or production environments without additional security measures.
 
 
-# Cisco Configuration Backup & Restore Using TFTP
-📌 Prerequisites
-- TFTP server installed and running (e.g., TFTPD32, Solar Winds TFTP and  on Windows or tftp-hpa on Linux)
-- TFTP server IP reachable from the Cisco device
-- Proper permissions on TFTP server folder
-- Firewall rules allowing TFTP UDP Port 69 and specific source and desitination IP
-
-
-
-# 📦 Cisco Configuration Backup & Restore Using TFTP
-
 ## 📌 Prerequisites
 
 Before performing backup or restore operations, ensure the following requirements are met:
