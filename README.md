@@ -50,7 +50,7 @@ Destination filename? → rtr1-running-config
 ```bash
 copy startup-config tftp:
 ```
-
+<br>
 ## 🔄 Restoring Configuration from TFTP
 ### 1. Restoring Running Configuration
 ```bash
