@@ -61,3 +61,15 @@ Prompts:
 ```bash
 copy tftp: startup-config
 ```
+##
+##
+
+## 🧰 Example Session
+```plaintext
+Router# copy running-config tftp:
+Address or name of remote host []? 192.168.1.100
+Destination filename [running-config]? rtr1-backup
+!!
+1234 bytes copied in 2.345 secs (526 bytes/sec)
+```
+
