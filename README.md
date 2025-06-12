@@ -51,3 +51,11 @@ Destination filename? → rtr1-running-config
 copy startup-config tftp:
 ```
 
+## 🔄 Restoring Configuration from TFTP
+### 1. Restoring Running Configuration
+```bash
+copy tftp: running-config
+```
+Prompts:
+Address or name of remote host? → 192.168.1.100
+Source filename? → rtr1-running-config
