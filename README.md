@@ -14,7 +14,7 @@ TFTP is a lightweight and fast protocol, commonly used in lab and trusted networ
 
 
 
-<br><br>
+<br>
 ## 🖥 Sample Topology
 Below is a simple network topology used to demonstrate the TFTP configuration backup process:
 ![image](https://github.com/user-attachments/assets/1e8a1ab8-ea05-4adf-96d9-dde7fdc42e7d)
